@@ -23,7 +23,8 @@ final class UnitOptions extends Options
             'expand',
             'archived',
             'property_ids',
-            'include_variants'
+            'include_variants',
+            'broker_id'
         ]);
 
         $this->set(Options::MODE_QUERY, [
